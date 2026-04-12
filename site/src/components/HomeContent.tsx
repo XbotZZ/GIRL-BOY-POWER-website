@@ -55,7 +55,7 @@ export function HomeContent({ featured }: { featured: Service[] }) {
   return (
     <ScrollExpandHero
       mediaType="image"
-      mediaSrc="https://picsum.photos/seed/gbp-spa-water-zen/1280/720"
+      mediaSrc="/GIRL-BOY-POWER-website/hero-riviere.jpg"
       bgImageSrc="https://picsum.photos/seed/gbp-spa-nature/1920/1080"
       titleLines={[
         { text: "Pour elles,", className: "text-rose italic" },
