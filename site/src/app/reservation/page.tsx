@@ -11,7 +11,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Reservation | GIRL & BOY POWER",
   description:
-    "Reservez votre soin au spa GIRL & BOY POWER. Massages, soins du visage, hammam, rituels — choisissez votre experience en quelques clics.",
+    "Réservez votre soin au spa GIRL & BOY POWER. Massages, soins du visage, hammam, rituels — choisissez votre expérience en quelques clics.",
 };
 
 export default function ReservationPage() {
@@ -25,16 +25,16 @@ export default function ReservationPage() {
         <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
           <AnimatedSection>
             <p className="text-xs font-medium uppercase tracking-[0.2em] text-rose-deep">
-              Reservation
+              Réservation
             </p>
             <h1 className="mt-3 max-w-3xl font-[var(--font-heading)] text-4xl font-light tracking-tight text-noir md:text-6xl lg:text-7xl">
               Offrez-vous un{" "}
-              <em className="italic text-rose-deep">moment</em> rien qu&apos;a
+              <em className="italic text-rose-deep">moment</em> rien qu&apos;à
               vous.
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted md:text-lg">
-              Selectionnez votre soin, votre creneau, et laissez-nous vous
-              accompagner. Notre equipe confirme votre rendez-vous sous 24h.
+              Sélectionnez votre soin, votre créneau, et laissez-nous vous
+              accompagner. Notre équipe confirme votre rendez-vous sous 24h.
             </p>
           </AnimatedSection>
         </div>
@@ -48,10 +48,10 @@ export default function ReservationPage() {
             <AnimatedSection className="lg:col-span-3">
               <div className="rounded-3xl border border-sand bg-cream/30 p-8 lg:p-12">
                 <h2 className="font-[var(--font-heading)] text-2xl font-medium tracking-tight text-noir">
-                  Demande de reservation
+                  Demande de réservation
                 </h2>
                 <p className="mt-2 text-sm text-muted">
-                  Remplissez ce formulaire en 4 etapes. C&apos;est rapide.
+                  Remplissez ce formulaire en 4 étapes. C&apos;est rapide.
                 </p>
                 <div className="mt-8">
                   <ReservationForm />
@@ -63,27 +63,27 @@ export default function ReservationPage() {
             <AnimatedSection delay={0.1} className="space-y-6 lg:col-span-2">
               <div className="rounded-3xl bg-noir p-8 text-ivory lg:p-10">
                 <p className="text-xs font-medium uppercase tracking-[0.2em] text-rose">
-                  Pourquoi reserver
+                  Pourquoi réserver
                 </p>
                 <h3 className="mt-3 font-[var(--font-heading)] text-2xl font-light tracking-tight">
-                  L&apos;experience GBP
+                  L&apos;expérience GBP
                 </h3>
                 <ul className="mt-8 space-y-6">
                   {[
                     {
                       Icon: Sparkle,
-                      title: "Cadre raffine",
+                      title: "Cadre raffiné",
                       desc: "Cabines individuelles, hammam, sauna, espace de relaxation.",
                     },
                     {
                       Icon: HandHeart,
-                      title: "Equipe certifiee",
-                      desc: "Therapeutes diplomes, formes aux meilleures techniques.",
+                      title: "Équipe certifiée",
+                      desc: "Thérapeutes diplômés, formés aux meilleures techniques.",
                     },
                     {
                       Icon: CalendarBlank,
-                      title: "Flexibilite",
-                      desc: "Modification ou annulation gratuite jusqu'a 24h avant le rendez-vous.",
+                      title: "Flexibilité",
+                      desc: "Modification ou annulation gratuite jusqu'à 24h avant le rendez-vous.",
                     },
                   ].map((item) => (
                     <li key={item.title} className="flex gap-4">
@@ -125,7 +125,7 @@ export default function ReservationPage() {
                   </div>
                 </div>
                 <p className="mt-6 border-t border-sand pt-4 text-xs text-muted">
-                  Une question avant de reserver ? Appelez-nous au{" "}
+                  Une question avant de réserver ? Appelez-nous au{" "}
                   <span className="text-noir">+33 1 86 47 29 03</span>
                 </p>
               </div>

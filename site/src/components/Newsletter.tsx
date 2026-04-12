@@ -25,11 +25,11 @@ export function Newsletter() {
             <span className="h-px w-10 bg-azure" />
           </div>
           <h2 className="mt-5 font-[var(--font-heading)] text-3xl font-light tracking-tight text-ivory md:text-5xl">
-            Restez connectes a l'univers GBP
+            Restez connectés à l'univers GBP
           </h2>
           <p className="mt-5 text-sm leading-relaxed text-ivory/60 md:text-base">
-            Recevez en avant-premiere nos offres exclusives, nos nouveaux soins
-            et nos invitations a des moments privilegies.
+            Recevez en avant-première nos offres exclusives, nos nouveaux soins
+            et nos invitations à des moments privilégiés.
           </p>
           <form className="mt-10 flex flex-col gap-3 sm:flex-row sm:gap-0">
             <input
@@ -45,7 +45,7 @@ export function Newsletter() {
             </button>
           </form>
           <p className="mt-3 text-xs text-ivory/30">
-            En vous inscrivant, vous acceptez notre politique de confidentialite.
+            En vous inscrivant, vous acceptez notre politique de confidentialité.
           </p>
         </motion.div>
       </div>

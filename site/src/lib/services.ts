@@ -22,29 +22,29 @@ export const categoryLabels: Record<ServiceCategory, string> = {
   "soins-visage": "Soins du Visage",
   "soins-corps": "Soins du Corps",
   rituels: "Rituels & Forfaits",
-  hammam: "Hammam & Bien-Etre",
+  hammam: "Hammam & Bien-Être",
 };
 
 export const categoryDescriptions: Record<ServiceCategory, string> = {
   massages:
-    "Des mains expertes, des techniques venues du monde entier. Nos massages sont des invitations au lacher-prise, concus pour denouer les tensions et reconnecter le corps a l'esprit.",
+    "Des mains expertes, des techniques venues du monde entier. Nos massages sont des invitations au lâcher-prise, conçus pour dénouer les tensions et reconnecter le corps à l'esprit.",
   "soins-visage":
-    "Reveiller l'eclat naturel de la peau grace a des protocoles personnalises et des produits d'exception. Pour elles, pour eux, pour toutes les peaux.",
+    "Réveiller l'éclat naturel de la peau grâce à des protocoles personnalisés et des produits d'exception. Pour elles, pour eux, pour toutes les peaux.",
   "soins-corps":
     "Sublimer, modeler, hydrater. Nos soins corporels enveloppent et transforment, pour une peau visiblement plus douce, plus tonique, plus lumineuse.",
   rituels:
-    "L'art du temps suspendu. Nos rituels combinent plusieurs soins en une experience complete, pour une evasion totale sur 90 minutes ou plus.",
+    "L'art du temps suspendu. Nos rituels combinent plusieurs soins en une expérience complète, pour une évasion totale sur 90 minutes ou plus.",
   hammam:
-    "L'experience du hammam traditionnel, des soins orientaux ancestraux et la chaleur reposante du sauna. Un voyage sensoriel au coeur du bien-etre.",
+    "L'expérience du hammam traditionnel, des soins orientaux ancestraux et la chaleur reposante du sauna. Un voyage sensoriel au cœur du bien-être.",
 };
 
 export const services: Service[] = [
   // MASSAGES
   {
     id: "massage-suedois",
-    name: "Massage Suedois Relaxant",
+    name: "Massage Suédois Relaxant",
     description:
-      "Massage doux et fluide a base de longs effleurages. Soulage le stress, ameliore la circulation et procure une detente profonde du corps et de l'esprit.",
+      "Massage doux et fluide à base de longs effleurages. Soulage le stress, améliore la circulation et procure une détente profonde du corps et de l'esprit.",
     duration: "60 min",
     price: 85,
     category: "massages",
@@ -56,7 +56,7 @@ export const services: Service[] = [
     id: "massage-deep-tissue",
     name: "Massage Deep Tissue",
     description:
-      "Massage profond et tonique cible les tensions musculaires chroniques. Ideal pour les sportifs et ceux qui souffrent de douleurs persistantes.",
+      "Massage profond et tonique ciblé sur les tensions musculaires chroniques. Idéal pour les sportifs et ceux qui souffrent de douleurs persistantes.",
     duration: "60 min",
     price: 95,
     category: "massages",
@@ -67,7 +67,7 @@ export const services: Service[] = [
     id: "massage-pierres-chaudes",
     name: "Massage aux Pierres Chaudes",
     description:
-      "Pierres de basalte chauffees a 50C posees sur les points cles du corps. Une chaleur enveloppante qui dissout les tensions et procure un bien-etre absolu.",
+      "Pierres de basalte chauffées à 50°C posées sur les points clés du corps. Une chaleur enveloppante qui dissout les tensions et procure un bien-être absolu.",
     duration: "75 min",
     price: 110,
     category: "massages",
@@ -79,7 +79,7 @@ export const services: Service[] = [
     id: "massage-duo",
     name: "Massage Duo en Cabine",
     description:
-      "Partagez un moment d'exception a deux. Massage relaxant simultane dans notre cabine duo, dans un cadre intime et raffine.",
+      "Partagez un moment d'exception à deux. Massage relaxant simultané dans notre cabine duo, dans un cadre intime et raffiné.",
     duration: "60 min",
     price: 170,
     category: "massages",
@@ -89,9 +89,9 @@ export const services: Service[] = [
   },
   {
     id: "massage-femme-enceinte",
-    name: "Massage Prenatal",
+    name: "Massage Prénatal",
     description:
-      "Massage doux et adapte aux futures mamans. Pratique en position laterale, il soulage les tensions du bas du dos et apaise les jambes lourdes.",
+      "Massage doux et adapté aux futures mamans. Pratiqué en position latérale, il soulage les tensions du bas du dos et apaise les jambes lourdes.",
     duration: "60 min",
     price: 90,
     category: "massages",
@@ -102,7 +102,7 @@ export const services: Service[] = [
     id: "massage-sportif",
     name: "Massage Sportif",
     description:
-      "Massage tonique et dynamique pour preparer ou recuperer apres l'effort. Cible les groupes musculaires sollicites.",
+      "Massage tonique et dynamique pour préparer ou récupérer après l'effort. Cible les groupes musculaires sollicités.",
     duration: "45 min",
     price: 75,
     category: "massages",
@@ -113,9 +113,9 @@ export const services: Service[] = [
   // SOINS VISAGE
   {
     id: "soin-eclat-diamant",
-    name: "Soin Eclat Diamant",
+    name: "Soin Éclat Diamant",
     description:
-      "Soin lumiere intensif a base de poudre de diamant et vitamine C. Revele un teint frais, lumineux et homogene des la premiere seance.",
+      "Soin lumière intensif à base de poudre de diamant et vitamine C. Révèle un teint frais, lumineux et homogène dès la première séance.",
     duration: "60 min",
     price: 95,
     category: "soins-visage",
@@ -125,9 +125,9 @@ export const services: Service[] = [
   },
   {
     id: "soin-anti-age-premium",
-    name: "Soin Anti-Age Premium",
+    name: "Soin Anti-Âge Premium",
     description:
-      "Protocole complet anti-rides : massage liftant, masque collagene et serum aux peptides. Une jeunesse retrouvee en 75 minutes.",
+      "Protocole complet anti-rides : massage liftant, masque collagène et sérum aux peptides. Une jeunesse retrouvée en 75 minutes.",
     duration: "75 min",
     price: 130,
     category: "soins-visage",
@@ -139,7 +139,7 @@ export const services: Service[] = [
     id: "soin-hydratation",
     name: "Soin Hydratation Intense",
     description:
-      "Cure d'hydratation profonde a l'acide hyaluronique et aloe vera. Pour les peaux deshydratees ou exposees aux agressions exterieures.",
+      "Cure d'hydratation profonde à l'acide hyaluronique et aloe vera. Pour les peaux déshydratées ou exposées aux agressions extérieures.",
     duration: "60 min",
     price: 85,
     category: "soins-visage",
@@ -150,7 +150,7 @@ export const services: Service[] = [
     id: "soin-purifiant-homme",
     name: "Soin Purifiant Homme",
     description:
-      "Soin specifiquement formule pour la peau masculine. Nettoyage en profondeur, exfoliation et apaisement post-rasage.",
+      "Soin spécifiquement formulé pour la peau masculine. Nettoyage en profondeur, exfoliation et apaisement post-rasage.",
     duration: "45 min",
     price: 70,
     category: "soins-visage",
@@ -162,7 +162,7 @@ export const services: Service[] = [
     id: "soin-yeux-express",
     name: "Soin Contour des Yeux",
     description:
-      "Soin cible pour estomper les cernes, poches et ridules. Un regard repose et lumineux en 30 minutes.",
+      "Soin ciblé pour estomper les cernes, poches et ridules. Un regard reposé et lumineux en 30 minutes.",
     duration: "30 min",
     price: 45,
     category: "soins-visage",
@@ -175,7 +175,7 @@ export const services: Service[] = [
     id: "gommage-sublime",
     name: "Gommage Corps Sublime",
     description:
-      "Exfoliation douce aux cristaux de sucre et huiles precieuses. Laisse la peau lisse, douce et delicatement parfumee.",
+      "Exfoliation douce aux cristaux de sucre et huiles précieuses. Laisse la peau lisse, douce et délicatement parfumée.",
     duration: "45 min",
     price: 65,
     category: "soins-corps",
@@ -184,9 +184,9 @@ export const services: Service[] = [
   },
   {
     id: "enveloppement-detox",
-    name: "Enveloppement Detox",
+    name: "Enveloppement Détox",
     description:
-      "Enveloppement aux algues marines et argile verte pour drainer, purifier et raffermir le corps. Sensation de legerete garantie.",
+      "Enveloppement aux algues marines et argile verte pour drainer, purifier et raffermir le corps. Sensation de légèreté garantie.",
     duration: "60 min",
     price: 95,
     category: "soins-corps",
@@ -198,7 +198,7 @@ export const services: Service[] = [
     id: "soin-modelant",
     name: "Soin Modelant Anti-Cellulite",
     description:
-      "Manoeuvres de palper-rouler combinees a un serum drainant. Un soin coup d'eclat sur les zones a problemes.",
+      "Manœuvres de palper-rouler combinées à un sérum drainant. Un soin coup d'éclat sur les zones à problèmes.",
     duration: "60 min",
     price: 100,
     category: "soins-corps",
@@ -209,7 +209,7 @@ export const services: Service[] = [
     id: "rituel-hydratation-corps",
     name: "Rituel Hydratation Corps",
     description:
-      "Gommage doux suivi d'une application de lait de karite chauffe et d'un modelage relaxant. Une peau soyeuse pour des heures.",
+      "Gommage doux suivi d'une application de lait de karité chauffé et d'un modelage relaxant. Une peau soyeuse pour des heures.",
     duration: "75 min",
     price: 110,
     category: "soins-corps",
@@ -220,21 +220,21 @@ export const services: Service[] = [
   // RITUELS & FORFAITS
   {
     id: "rituel-decouverte",
-    name: "Rituel Decouverte",
+    name: "Rituel Découverte",
     description:
-      "Une premiere immersion dans l'univers GBP : acces hammam, gommage doux et massage relaxant de 30 minutes. Le parfait avant-gout.",
+      "Une première immersion dans l'univers GBP : accès hammam, gommage doux et massage relaxant de 30 minutes. Le parfait avant-goût.",
     duration: "90 min",
     price: 130,
     category: "rituels",
     image: "https://picsum.photos/seed/gbp-rituel-decouverte/600/750",
-    tag: "Pour debuter",
+    tag: "Pour débuter",
     forWhom: "tous",
   },
   {
     id: "rituel-evasion",
-    name: "Rituel Evasion",
+    name: "Rituel Évasion",
     description:
-      "Hammam, gommage corps complet, soin visage hydratation et massage relaxant 45 min. 2 heures pour s'evader totalement.",
+      "Hammam, gommage corps complet, soin visage hydratation et massage relaxant 45 min. 2 heures pour s'évader totalement.",
     duration: "2 h",
     price: 180,
     category: "rituels",
@@ -246,7 +246,7 @@ export const services: Service[] = [
     id: "rituel-royal",
     name: "Rituel Royal",
     description:
-      "Notre experience la plus complete : hammam, gommage, enveloppement, soin visage premium, massage 60 min et collation gourmande.",
+      "Notre expérience la plus complète : hammam, gommage, enveloppement, soin visage premium, massage 60 min et collation gourmande.",
     duration: "3 h",
     price: 280,
     category: "rituels",
@@ -258,7 +258,7 @@ export const services: Service[] = [
     id: "rituel-duo-romantique",
     name: "Rituel Duo Romantique",
     description:
-      "A deux dans la cabine privative : hammam, gommage mutuel optionnel, massage duo 60 min et coupe de champagne. Un moment inoubliable.",
+      "À deux dans la cabine privative : hammam, gommage mutuel optionnel, massage duo 60 min et coupe de champagne. Un moment inoubliable.",
     duration: "2 h",
     price: 350,
     category: "rituels",
@@ -270,9 +270,9 @@ export const services: Service[] = [
   // HAMMAM & BIEN-ETRE
   {
     id: "acces-hammam",
-    name: "Acces Hammam",
+    name: "Accès Hammam",
     description:
-      "Profitez de notre hammam traditionnel chauffe a 45C. Vapeurs aromatiques, ambiance feutree, the a la menthe offert.",
+      "Profitez de notre hammam traditionnel chauffé à 45°C. Vapeurs aromatiques, ambiance feutrée, thé à la menthe offert.",
     duration: "60 min",
     price: 35,
     category: "hammam",
@@ -283,7 +283,7 @@ export const services: Service[] = [
     id: "gommage-savon-noir",
     name: "Gommage au Savon Noir",
     description:
-      "Tradition orientale ancestrale : application de savon noir au hammam puis exfoliation au gant Kessa. La peau renait.",
+      "Tradition orientale ancestrale : application de savon noir au hammam puis exfoliation au gant Kessa. La peau renaît.",
     duration: "45 min",
     price: 55,
     category: "hammam",
@@ -295,7 +295,7 @@ export const services: Service[] = [
     id: "rituel-oriental",
     name: "Rituel Oriental Complet",
     description:
-      "L'experience hammam dans toute sa splendeur : gommage savon noir, masque au rhassoul, modelage a l'huile d'argan.",
+      "L'expérience hammam dans toute sa splendeur : gommage savon noir, masque au rhassoul, modelage à l'huile d'argan.",
     duration: "90 min",
     price: 130,
     category: "hammam",
@@ -307,7 +307,7 @@ export const services: Service[] = [
     id: "sauna-finlandais",
     name: "Sauna Finlandais",
     description:
-      "Acces a notre sauna finlandais en bois noble. Chaleur seche relaxante pour eliminer toxines et detendre les muscles.",
+      "Accès à notre sauna finlandais en bois noble. Chaleur sèche relaxante pour éliminer toxines et détendre les muscles.",
     duration: "60 min",
     price: 35,
     category: "hammam",

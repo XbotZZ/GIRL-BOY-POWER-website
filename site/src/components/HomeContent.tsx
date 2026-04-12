@@ -25,7 +25,7 @@ const categoryLabelsMap: Record<ServiceCategory, string> = {
   "soins-visage": "Soins du Visage",
   "soins-corps": "Soins du Corps",
   rituels: "Rituels & Forfaits",
-  hammam: "Hammam & Bien-Etre",
+  hammam: "Hammam & Bien-Être",
 };
 
 const categories: { slug: ServiceCategory; image: string }[] = [
@@ -63,7 +63,7 @@ export function HomeContent({ featured }: { featured: Service[] }) {
         { text: "pour tous.", className: "text-ivory" },
       ]}
       tagline="Spa · Bien-Être · Inclusif"
-      scrollHint="Scrollez pour decouvrir"
+      scrollHint="Scrollez pour découvrir"
     >
       {/* CTA buttons after expansion */}
       <div className="flex flex-wrap justify-center gap-4 px-6 pb-8 pt-4">
@@ -72,7 +72,7 @@ export function HomeContent({ featured }: { featured: Service[] }) {
           className="group inline-flex items-center gap-3 rounded-full bg-ivory px-7 py-3.5 text-sm font-medium text-noir transition-all duration-200 hover:bg-rose hover:text-noir active:scale-[0.98]"
         >
           <CalendarBlank size={18} weight="light" />
-          Reserver un soin
+          Réserver un soin
           <span className="flex h-7 w-7 items-center justify-center rounded-full bg-noir/10 transition-transform group-hover:translate-x-0.5">
             <ArrowRight size={12} weight="bold" />
           </span>
@@ -81,7 +81,7 @@ export function HomeContent({ featured }: { featured: Service[] }) {
           href="/services"
           className="inline-flex items-center rounded-full border border-ivory/30 px-7 py-3.5 text-sm font-medium text-ivory transition-all duration-200 hover:border-ivory/60 hover:bg-ivory/5 active:scale-[0.98]"
         >
-          Decouvrir nos soins
+          Découvrir nos soins
         </Link>
       </div>
 
@@ -97,12 +97,12 @@ export function HomeContent({ featured }: { featured: Service[] }) {
           <AnimatedSection delay={0.1}>
             <h2 className="mt-8 font-[var(--font-heading)] text-3xl font-light tracking-tight text-noir md:text-5xl">
               Le bien-etre{" "}
-              <em className="italic text-rose-deep">sans frontiere</em>.
+              <em className="italic text-rose-deep">sans frontière</em>.
             </h2>
             <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-muted md:text-lg">
-              Chez GIRL &amp; BOY POWER, nous avons cree un espace ou chacun se
+              Chez GIRL &amp; BOY POWER, nous avons créé un espace où chacun se
               sent bienvenu. Que vous soyez seul, en couple ou entre amis, notre
-              spa vous propose une experience unique, mele de rituels feminins,
+              spa vous propose une expérience unique, mêlé de rituels féminins,
               masculins et mixtes.
             </p>
           </AnimatedSection>
@@ -119,7 +119,7 @@ export function HomeContent({ featured }: { featured: Service[] }) {
                   Nos univers
                 </p>
                 <h2 className="mt-2 font-[var(--font-heading)] text-3xl font-light tracking-tight text-noir md:text-5xl">
-                  Choisissez votre experience
+                  Choisissez votre expérience
                 </h2>
               </div>
               <Link
@@ -186,16 +186,16 @@ export function HomeContent({ featured }: { featured: Service[] }) {
                 un <em className="italic text-rose-deep">droit</em> pour tous.
               </h2>
               <p className="mt-6 max-w-lg text-base leading-relaxed text-muted">
-                Trop longtemps, l&apos;univers du spa a ete percu comme
-                exclusivement feminin. Chez GIRL &amp; BOY POWER, nous avons
-                casse les codes : ici, hommes et femmes profitent des memes
-                soins d&apos;exception, dans un cadre concu pour tous, sans
+                Trop longtemps, l&apos;univers du spa a été perçu comme
+                exclusivement féminin. Chez GIRL &amp; BOY POWER, nous avons
+                cassé les codes : ici, hommes et femmes profitent des mêmes
+                soins d&apos;exception, dans un cadre conçu pour tous, sans
                 jugement, sans distinction.
               </p>
               <p className="mt-4 max-w-lg text-base leading-relaxed text-muted">
-                Notre equipe de professionnels passionnes vous accompagne dans
+                Notre équipe de professionnels passionnés vous accompagne dans
                 un voyage sensoriel unique : massages experts, soins du visage
-                personnalises, rituels sur-mesure et acces a notre hammam et
+                personnalisés, rituels sur-mesure et accès à notre hammam et
                 sauna.
               </p>
               <Link
@@ -253,20 +253,20 @@ export function HomeContent({ featured }: { featured: Service[] }) {
             {[
               {
                 Icon: Heart,
-                title: "Inclusivite",
+                title: "Inclusivité",
                 desc: "Un spa pour toutes et tous, sans jugement. Nous accueillons hommes, femmes, couples, dans le respect de chacun.",
                 color: "text-rose-deep",
               },
               {
                 Icon: HandHeart,
                 title: "Expertise",
-                desc: "Une equipe de professionnels passionnes, formes aux meilleures techniques de massage et de soins esthetiques.",
+                desc: "Une équipe de professionnels passionnés, formés aux meilleures techniques de massage et de soins esthétiques.",
                 color: "text-noir",
               },
               {
                 Icon: Sparkle,
-                title: "Qualite Premium",
-                desc: "Des produits d'exception, un cadre raffine, une attention portee a chaque detail. L'experience d'un spa de luxe.",
+                title: "Qualité Premium",
+                desc: "Des produits d'exception, un cadre raffiné, une attention portée à chaque détail. L'expérience d'un spa de luxe.",
                 color: "text-azure-deep",
               },
             ].map((value) => (

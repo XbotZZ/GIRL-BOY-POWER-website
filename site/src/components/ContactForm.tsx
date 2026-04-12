@@ -15,10 +15,10 @@ export function ContactForm() {
         className="mt-8 rounded-2xl bg-cream p-8 text-center"
       >
         <h3 className="font-[var(--font-heading)] text-lg font-medium text-noir">
-          Message envoye
+          Message envoyé
         </h3>
         <p className="mt-2 text-sm text-muted">
-          Merci pour votre message. Notre equipe reviendra vers vous sous 24h.
+          Merci pour votre message. Notre équipe reviendra vers vous sous 24h.
         </p>
       </motion.div>
     );
@@ -35,13 +35,13 @@ export function ContactForm() {
       <div className="grid gap-5 sm:grid-cols-2">
         <div className="space-y-2">
           <label className="text-xs font-medium uppercase tracking-[0.1em] text-rose-deep">
-            Prenom
+            Prénom
           </label>
           <input
             type="text"
             required
             className="w-full rounded-xl border border-sand bg-ivory px-4 py-3 text-sm text-noir outline-none transition-colors placeholder:text-muted/50 focus:border-rose-deep focus:ring-1 focus:ring-rose-deep/30"
-            placeholder="Votre prenom"
+            placeholder="Votre prénom"
           />
         </div>
         <div className="space-y-2">
@@ -75,11 +75,11 @@ export function ContactForm() {
         </label>
         <select className="w-full rounded-xl border border-sand bg-ivory px-4 py-3 text-sm text-noir outline-none transition-colors focus:border-rose-deep focus:ring-1 focus:ring-rose-deep/30">
           <option value="">Choisir un sujet</option>
-          <option value="reservation">Question sur une reservation</option>
+          <option value="reservation">Question sur une réservation</option>
           <option value="soin">Conseil sur un soin</option>
           <option value="cadeau">Bons cadeaux</option>
-          <option value="evenement">Evenement / Privatisation</option>
-          <option value="presse">Presse / Medias</option>
+          <option value="evenement">Événement / Privatisation</option>
+          <option value="presse">Presse / Médias</option>
           <option value="autre">Autre</option>
         </select>
       </div>

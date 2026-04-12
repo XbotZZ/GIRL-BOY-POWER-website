@@ -14,7 +14,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact | GIRL & BOY POWER",
   description:
-    "Contactez le spa GIRL & BOY POWER. Reservation, conseils, bons cadeaux, evenements — notre equipe est a votre ecoute.",
+    "Contactez le spa GIRL & BOY POWER. Réservation, conseils, bons cadeaux, événements — notre équipe est à votre écoute.",
 };
 
 export default function ContactPage() {
@@ -34,8 +34,8 @@ export default function ContactPage() {
               <em className="italic text-rose-deep">ensemble</em>.
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted md:text-lg">
-              Une question sur un soin, un bon cadeau a offrir, une envie de
-              privatiser le spa ? Notre equipe est a votre ecoute.
+              Une question sur un soin, un bon cadeau à offrir, une envie de
+              privatiser le spa ? Notre équipe est à votre écoute.
             </p>
           </AnimatedSection>
 
@@ -52,7 +52,7 @@ export default function ContactPage() {
                     contact@girlandboypower.fr
                   </p>
                   <p className="text-xs text-muted/70">
-                    Reponse sous 24h en jours ouvres
+                    Réponse sous 24h en jours ouvrés
                   </p>
                 </div>
               </div>
@@ -62,7 +62,7 @@ export default function ContactPage() {
                   <Phone size={18} weight="light" />
                 </div>
                 <div>
-                  <h3 className="text-sm font-medium text-noir">Telephone</h3>
+                  <h3 className="text-sm font-medium text-noir">Téléphone</h3>
                   <p className="mt-1 text-sm text-muted">+33 1 86 47 29 03</p>
                   <p className="text-xs text-muted/70">
                     Du lundi au dimanche, sur les horaires d&apos;ouverture
@@ -77,12 +77,12 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-sm font-medium text-noir">Adresse</h3>
                   <p className="mt-1 text-sm text-muted">
-                    17 Rue du Faubourg Saint-Honore
+                    17 Rue du Faubourg Saint-Honoré
                     <br />
                     75008 Paris, France
                   </p>
                   <p className="text-xs text-muted/70">
-                    Metro Concorde · Parking Concorde a 200m
+                    Métro Concorde · Parking Concorde à 200m
                   </p>
                 </div>
               </div>
@@ -131,13 +131,13 @@ export default function ContactPage() {
               {/* FAQ teaser */}
               <div className="rounded-2xl border border-sand bg-cream/40 p-6">
                 <h3 className="font-[var(--font-heading)] text-base font-medium text-noir">
-                  Questions frequentes
+                  Questions fréquentes
                 </h3>
                 <div className="mt-4 space-y-3">
                   {[
                     {
-                      q: "Comment annuler ou modifier ma reservation ?",
-                      a: "Vous pouvez annuler ou modifier gratuitement votre rendez-vous jusqu'a 24h avant le creneau, en nous contactant par telephone ou email.",
+                      q: "Comment annuler ou modifier ma réservation ?",
+                      a: "Vous pouvez annuler ou modifier gratuitement votre rendez-vous jusqu'à 24h avant le créneau, en nous contactant par téléphone ou email.",
                     },
                     {
                       q: "Proposez-vous des bons cadeaux ?",
@@ -145,11 +145,11 @@ export default function ContactPage() {
                     },
                     {
                       q: "Puis-je privatiser le spa ?",
-                      a: "Absolument. Nous proposons des privatisations pour anniversaires, EVJF/EVG, ou evenements d'entreprise. Contactez-nous pour un devis personnalise.",
+                      a: "Absolument. Nous proposons des privatisations pour anniversaires, EVJF/EVG, ou événements d'entreprise. Contactez-nous pour un devis personnalisé.",
                     },
                     {
                       q: "Le spa est-il accessible aux PMR ?",
-                      a: "Oui, le spa est entierement accessible aux personnes a mobilite reduite. Cabine et hammam adaptes.",
+                      a: "Oui, le spa est entièrement accessible aux personnes à mobilité réduite. Cabine et hammam adaptés.",
                     },
                   ].map((item) => (
                     <details key={item.q} className="group">
@@ -172,12 +172,12 @@ export default function ContactPage() {
                   Envoyez-nous un message
                 </h2>
                 <p className="mt-2 text-sm text-muted">
-                  Pour reserver un soin, utilisez plutot notre{" "}
+                  Pour réserver un soin, utilisez plutôt notre{" "}
                   <a
                     href="/reservation"
                     className="text-rose-deep underline-offset-4 hover:underline"
                   >
-                    formulaire de reservation
+                    formulaire de réservation
                   </a>
                   .
                 </p>

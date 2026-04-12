@@ -35,11 +35,11 @@ export function ReservationForm({
           <CheckCircle size={36} weight="light" />
         </div>
         <h3 className="mt-6 font-[var(--font-heading)] text-2xl font-light tracking-tight text-noir md:text-3xl">
-          Demande recue
+          Demande reçue
         </h3>
         <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-muted">
-          Merci pour votre demande de reservation. Notre equipe vous contactera
-          dans les plus brefs delais pour confirmer votre rendez-vous.
+          Merci pour votre demande de réservation. Notre équipe vous contactera
+          dans les plus brefs délais pour confirmer votre rendez-vous.
         </p>
       </motion.div>
     );
@@ -64,7 +64,7 @@ export function ReservationForm({
           onChange={(e) => setSelectedService(e.target.value)}
           className="w-full rounded-xl border border-sand bg-ivory px-4 py-3.5 text-sm text-noir outline-none transition-colors focus:border-rose-deep focus:ring-1 focus:ring-rose-deep/30"
         >
-          <option value="">— Selectionner un soin —</option>
+          <option value="">— Sélectionner un soin —</option>
           {categoryOrder.map((cat) => (
             <optgroup key={cat} label={categoryLabels[cat]}>
               {services
@@ -98,7 +98,7 @@ export function ReservationForm({
       {/* Date and time */}
       <div className="space-y-3">
         <label className="text-xs font-medium uppercase tracking-[0.15em] text-rose-deep">
-          2. Date et heure souhaitees
+          2. Date et heure souhaitées
         </label>
         <div className="grid gap-4 sm:grid-cols-2">
           <input
@@ -111,7 +111,7 @@ export function ReservationForm({
             className="w-full rounded-xl border border-sand bg-ivory px-4 py-3.5 text-sm text-noir outline-none transition-colors focus:border-rose-deep focus:ring-1 focus:ring-rose-deep/30"
             defaultValue=""
           >
-            <option value="">— Creneau horaire —</option>
+            <option value="">— Créneau horaire —</option>
             <option>10h00 — 12h00</option>
             <option>12h00 — 14h00</option>
             <option>14h00 — 16h00</option>
@@ -124,13 +124,13 @@ export function ReservationForm({
       {/* Personal info */}
       <div className="space-y-3">
         <label className="text-xs font-medium uppercase tracking-[0.15em] text-rose-deep">
-          3. Vos coordonnees
+          3. Vos coordonnées
         </label>
         <div className="grid gap-4 sm:grid-cols-2">
           <input
             type="text"
             required
-            placeholder="Prenom"
+            placeholder="Prénom"
             className="w-full rounded-xl border border-sand bg-ivory px-4 py-3.5 text-sm text-noir outline-none transition-colors placeholder:text-muted/50 focus:border-rose-deep focus:ring-1 focus:ring-rose-deep/30"
           />
           <input
@@ -148,7 +148,7 @@ export function ReservationForm({
           <input
             type="tel"
             required
-            placeholder="Telephone"
+            placeholder="Téléphone"
             className="w-full rounded-xl border border-sand bg-ivory px-4 py-3.5 text-sm text-noir outline-none transition-colors placeholder:text-muted/50 focus:border-rose-deep focus:ring-1 focus:ring-rose-deep/30"
           />
         </div>
@@ -157,11 +157,11 @@ export function ReservationForm({
       {/* Notes */}
       <div className="space-y-3">
         <label className="text-xs font-medium uppercase tracking-[0.15em] text-rose-deep">
-          4. Une demande particuliere ?
+          4. Une demande particulière ?
         </label>
         <textarea
           rows={4}
-          placeholder="Allergies, preferences, occasion speciale..."
+          placeholder="Allergies, préférences, occasion spéciale..."
           className="w-full resize-none rounded-xl border border-sand bg-ivory px-4 py-3.5 text-sm text-noir outline-none transition-colors placeholder:text-muted/50 focus:border-rose-deep focus:ring-1 focus:ring-rose-deep/30"
         />
       </div>
@@ -176,8 +176,8 @@ export function ReservationForm({
         </span>
       </button>
       <p className="text-xs text-muted/70">
-        Reservation a confirmer par notre equipe sous 24h. Aucun paiement
-        n&apos;est preleve a cette etape.
+        Réservation à confirmer par notre équipe sous 24h. Aucun paiement
+        n&apos;est prélevé à cette étape.
       </p>
     </form>
   );
