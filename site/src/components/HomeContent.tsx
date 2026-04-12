@@ -55,14 +55,14 @@ export function HomeContent({ featured }: { featured: Service[] }) {
   return (
     <ScrollExpandHero
       mediaType="image"
-      mediaSrc="https://picsum.photos/seed/gbp-hero-expand/1280/720"
-      bgImageSrc="https://picsum.photos/seed/gbp-spa-hero/1920/1080"
+      mediaSrc="https://picsum.photos/seed/gbp-spa-water-zen/1280/720"
+      bgImageSrc="https://picsum.photos/seed/gbp-spa-nature/1920/1080"
       titleLines={[
         { text: "Pour elles,", className: "text-rose italic" },
         { text: "pour eux,", className: "text-azure italic" },
         { text: "pour tous.", className: "text-ivory" },
       ]}
-      tagline="Spa \u00b7 Bien-\u00catre \u00b7 Inclusif"
+      tagline="Spa · Bien-Être · Inclusif"
       scrollHint="Scrollez pour decouvrir"
     >
       {/* CTA buttons after expansion */}
