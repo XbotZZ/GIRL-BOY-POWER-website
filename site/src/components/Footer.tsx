@@ -8,16 +8,16 @@ const footerLinks = {
     { href: "/services/soins-visage", label: "Soins du Visage" },
     { href: "/services/soins-corps", label: "Soins du Corps" },
     { href: "/services/rituels", label: "Rituels & Forfaits" },
-    { href: "/services/hammam", label: "Hammam & Bien-Etre" },
+    { href: "/services/hammam", label: "Hammam & Bien-Être" },
   ],
   "Le Spa": [
     { href: "/about", label: "Notre Histoire" },
     { href: "/about#valeurs", label: "Nos Valeurs" },
-    { href: "/about#equipe", label: "L'Equipe" },
-    { href: "/contact", label: "Acces & Horaires" },
+    { href: "/about#equipe", label: "L'Équipe" },
+    { href: "/contact", label: "Accès & Horaires" },
   ],
   Pratique: [
-    { href: "/reservation", label: "Reserver en ligne" },
+    { href: "/reservation", label: "Réserver en ligne" },
     { href: "/contact", label: "Contact" },
     { href: "#", label: "Cartes cadeaux" },
     { href: "#", label: "Conditions de vente" },
@@ -40,7 +40,7 @@ export function Footer() {
               </h3>
             </div>
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-muted">
-              Spa &amp; bien-etre inclusif. Une parenthese de douceur, pour
+              Spa &amp; bien-être inclusif. Une parenthèse de douceur, pour
               elles, pour eux, pour tous.
             </p>
             <div className="mt-5 flex gap-3">
@@ -88,14 +88,14 @@ export function Footer() {
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-sand pt-8 md:flex-row">
           <p className="text-xs text-muted">
             &copy; {new Date().getFullYear()} GIRL &amp; BOY POWER. Tous droits
-            reserves.
+            réservés.
           </p>
           <div className="flex gap-6">
             <Link href="#" className="text-xs text-muted hover:text-rose-deep">
-              Mentions Legales
+              Mentions Légales
             </Link>
             <Link href="#" className="text-xs text-muted hover:text-rose-deep">
-              Politique de Confidentialite
+              Politique de Confidentialité
             </Link>
             <Link href="#" className="text-xs text-muted hover:text-rose-deep">
               CGV

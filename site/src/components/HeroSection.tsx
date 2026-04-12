@@ -12,7 +12,7 @@ export function HeroSection() {
       <div className="absolute inset-0">
         <Image
           src="https://picsum.photos/seed/gbp-spa-hero/1920/1080"
-          alt="GIRL & BOY POWER Spa & Bien-Etre"
+          alt="GIRL & BOY POWER Spa & Bien-Être"
           fill
           className="object-cover"
           priority
@@ -63,8 +63,8 @@ export function HeroSection() {
               className="mt-8 max-w-md text-base leading-relaxed text-ivory/75"
             >
               Bienvenue chez GIRL &amp; BOY POWER. Notre spa vous accueille dans
-              une atmosphere chaleureuse et raffinee, pour des soins
-              personnalises et une parenthese de pure detente.
+              une atmosphère chaleureuse et raffinée, pour des soins
+              personnalisés et une parenthèse de pure détente.
             </motion.p>
 
             <motion.div
@@ -78,7 +78,7 @@ export function HeroSection() {
                 className="group inline-flex items-center gap-3 rounded-full bg-ivory px-7 py-3.5 text-sm font-medium text-noir transition-all duration-200 hover:bg-rose hover:text-noir active:scale-[0.98]"
               >
                 <CalendarBlank size={18} weight="light" />
-                Reserver un soin
+                Réserver un soin
                 <span className="flex h-7 w-7 items-center justify-center rounded-full bg-noir/10 transition-transform group-hover:translate-x-0.5">
                   <ArrowRight size={12} weight="bold" />
                 </span>
@@ -87,7 +87,7 @@ export function HeroSection() {
                 href="/services"
                 className="inline-flex items-center rounded-full border border-ivory/30 px-7 py-3.5 text-sm font-medium text-ivory transition-all duration-200 hover:border-ivory/60 hover:bg-ivory/5 active:scale-[0.98]"
               >
-                Decouvrir nos soins
+                Découvrir nos soins
               </Link>
             </motion.div>
           </div>

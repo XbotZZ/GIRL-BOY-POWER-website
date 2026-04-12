@@ -19,7 +19,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Nos Soins | GIRL & BOY POWER",
   description:
-    "Decouvrez l'ensemble des soins du spa GIRL & BOY POWER : massages, soins du visage, soins du corps, rituels et hammam.",
+    "Découvrez l'ensemble des soins du spa GIRL & BOY POWER : massages, soins du visage, soins du corps, rituels et hammam.",
 };
 
 const categories: { slug: ServiceCategory; image: string }[] = [
@@ -46,10 +46,10 @@ export default function ServicesIndexPage() {
             <h1 className="mt-3 max-w-3xl font-[var(--font-heading)] text-4xl font-light tracking-tight text-noir md:text-6xl lg:text-7xl">
               Tous nos <em className="italic text-rose-deep">soins</em>,
               <br />
-              une seule <em className="italic text-azure-deep">parenthese</em>.
+              une seule <em className="italic text-azure-deep">parenthèse</em>.
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted md:text-lg">
-              Massages experts, soins du visage personnalises, rituels
+              Massages experts, soins du visage personnalisés, rituels
               orientaux, hammam traditionnel. Naviguez entre nos cinq univers
               pour trouver le soin qui vous correspond.
             </p>
@@ -92,7 +92,7 @@ export default function ServicesIndexPage() {
                         {categoryDescriptions[cat.slug]}
                       </p>
                       <div className="mt-8 inline-flex items-center gap-3 text-sm font-medium text-noir">
-                        Decouvrir
+                        Découvrir
                         <span className="flex h-7 w-7 items-center justify-center rounded-full bg-noir text-ivory transition-transform duration-300 group-hover:translate-x-1">
                           <ArrowRight size={12} weight="bold" />
                         </span>

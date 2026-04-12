@@ -18,7 +18,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Notre Histoire | GIRL & BOY POWER",
   description:
-    "GIRL & BOY POWER, le premier spa pleinement inclusif. Decouvrez notre histoire, notre equipe et notre vision du bien-etre pour toutes et tous.",
+    "GIRL & BOY POWER, le premier spa pleinement inclusif. Découvrez notre histoire, notre équipe et notre vision du bien-être pour toutes et tous.",
 };
 
 export default function AboutPage() {
@@ -36,22 +36,22 @@ export default function AboutPage() {
                 Notre histoire
               </p>
               <h1 className="mt-3 font-[var(--font-heading)] text-4xl font-light tracking-tight text-noir md:text-5xl lg:text-6xl">
-                Nee d&apos;une conviction.
+                Née d&apos;une conviction.
                 <br />
-                Le bien-etre,{" "}
+                Le bien-être,{" "}
                 <em className="italic text-rose-deep">pour tous</em>.
               </h1>
               <p className="mt-6 max-w-lg text-base leading-relaxed text-muted">
-                GIRL &amp; BOY POWER est nee de la conviction qu&apos;un spa de
-                qualite ne devrait exclure personne. Ni par le genre, ni par
-                les codes, ni par les habitudes. Nous avons cree un lieu ou
-                hommes et femmes profitent des memes soins d&apos;exception, sans
+                GIRL &amp; BOY POWER est née de la conviction qu&apos;un spa de
+                qualité ne devrait exclure personne. Ni par le genre, ni par
+                les codes, ni par les habitudes. Nous avons créé un lieu où
+                hommes et femmes profitent des mêmes soins d&apos;exception, sans
                 jugement, sans distinction.
               </p>
               <p className="mt-4 max-w-lg text-base leading-relaxed text-muted">
-                Notre equipe de therapeutes passionnes vous accueille dans un
-                cadre raffine, dedie a la detente, a l&apos;ecoute et a la
-                reconnexion a soi.
+                Notre équipe de thérapeutes passionnés vous accueille dans un
+                cadre raffiné, dédié à la détente, à l&apos;écoute et à la
+                reconnexion à soi.
               </p>
             </AnimatedSection>
             <AnimatedSection delay={0.15}>
@@ -59,7 +59,7 @@ export default function AboutPage() {
                 <div className="relative aspect-[4/5] overflow-hidden rounded-3xl bg-cream">
                   <Image
                     src="https://picsum.photos/seed/gbp-about-team/900/1100"
-                    alt="L'equipe GIRL & BOY POWER"
+                    alt="L'équipe GIRL & BOY POWER"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 100vw, 50vw"
@@ -84,7 +84,7 @@ export default function AboutPage() {
               Manifeste
             </p>
             <h2 className="mt-3 font-[var(--font-heading)] text-3xl font-light italic leading-tight tracking-tight text-noir md:text-4xl lg:text-5xl">
-              &ldquo;Le bien-etre n&apos;a pas de genre.
+              &ldquo;Le bien-être n&apos;a pas de genre.
               <br />
               Il n&apos;a pas de codes.
               <br />
@@ -92,7 +92,7 @@ export default function AboutPage() {
               <span className="not-italic text-rose-deep">lieu</span>.&rdquo;
             </h2>
             <p className="mt-8 text-sm uppercase tracking-[0.2em] text-muted">
-              — L&apos;equipe GBP
+              — L&apos;équipe GBP
             </p>
           </AnimatedSection>
         </div>
@@ -106,7 +106,7 @@ export default function AboutPage() {
               Parcours
             </p>
             <h2 className="mt-2 font-[var(--font-heading)] text-3xl font-light tracking-tight text-noir md:text-4xl">
-              Les etapes cles
+              Les étapes clés
             </h2>
           </AnimatedSection>
 
@@ -114,18 +114,18 @@ export default function AboutPage() {
             {[
               {
                 year: "2023",
-                title: "L'idee",
-                desc: "Le projet d'un spa pleinement inclusif prend forme. Premiers reperages a la recherche du lieu ideal.",
+                title: "L'idée",
+                desc: "Le projet d'un spa pleinement inclusif prend forme. Premiers repérages à la recherche du lieu idéal.",
               },
               {
                 year: "2024",
                 title: "Le lieu",
-                desc: "Acquisition d'un espace de 350 m2 et debut des travaux. Conception du parcours bien-etre avec des architectes specialises.",
+                desc: "Acquisition d'un espace de 350 m² et début des travaux. Conception du parcours bien-être avec des architectes spécialisés.",
               },
               {
                 year: "2025",
-                title: "L'equipe",
-                desc: "Recrutement de notre equipe : 8 therapeutes diplomes, formes aux techniques orientales et europeennes.",
+                title: "L'équipe",
+                desc: "Recrutement de notre équipe : 8 thérapeutes diplômés, formés aux techniques orientales et européennes.",
               },
               {
                 year: "2026",
@@ -172,22 +172,22 @@ export default function AboutPage() {
             {[
               {
                 Icon: Heart,
-                title: "Inclusivite radicale",
-                desc: "Nous accueillons toutes les identites, tous les corps, tous les ages. Notre spa est un espace neutre, bienveillant, sans jugement. Le bien-etre est un droit, pas un privilege genre.",
+                title: "Inclusivité radicale",
+                desc: "Nous accueillons toutes les identités, tous les corps, tous les âges. Notre spa est un espace neutre, bienveillant, sans jugement. Le bien-être est un droit, pas un privilège genré.",
                 color: "text-rose-deep",
                 bg: "bg-rose/15",
               },
               {
                 Icon: HandHeart,
                 title: "Expertise sensorielle",
-                desc: "Nos therapeutes sont diplomes et formes en continu. Chaque protocole est pense pour offrir un veritable voyage sensoriel : odeurs, textures, gestes, ambiance. L'experience d'un spa de luxe.",
+                desc: "Nos thérapeutes sont diplômés et formés en continu. Chaque protocole est pensé pour offrir un véritable voyage sensoriel : odeurs, textures, gestes, ambiance. L'expérience d'un spa de luxe.",
                 color: "text-noir",
                 bg: "bg-cream",
               },
               {
                 Icon: Sparkle,
-                title: "Qualite premium",
-                desc: "Produits d'exception, linge de soin haut de gamme, ambiance feutree. Nous selectionnons les meilleurs partenaires pour vous offrir une parenthese reellement unique.",
+                title: "Qualité premium",
+                desc: "Produits d'exception, linge de soin haut de gamme, ambiance feutrée. Nous sélectionnons les meilleurs partenaires pour vous offrir une parenthèse réellement unique.",
                 color: "text-azure-deep",
                 bg: "bg-azure/15",
               },
@@ -225,7 +225,7 @@ export default function AboutPage() {
                 <em className="italic text-azure-deep">350 m&sup2;</em>
               </h2>
               <p className="mt-6 max-w-lg text-base leading-relaxed text-muted">
-                Notre spa s&apos;etend sur 350 m&sup2; pensees comme un parcours
+                Notre spa s&apos;étend sur 350 m² pensés comme un parcours
                 sensoriel. Six cabines individuelles, une cabine duo privative,
                 un hammam traditionnel, un sauna finlandais et un espace de
                 relaxation avec tisanerie.
@@ -233,8 +233,8 @@ export default function AboutPage() {
               <ul className="mt-8 space-y-3 text-sm text-charcoal">
                 {[
                   "6 cabines de soin individuelles",
-                  "1 cabine duo privative avec bain a remous",
-                  "Hammam traditionnel chauffe a 45°C",
+                  "1 cabine duo privative avec bain à remous",
+                  "Hammam traditionnel chauffé à 45°C",
                   "Sauna finlandais en bois noble",
                   "Espace tisanerie & lounge",
                   "Vestiaires privatifs et douches sensorielles",
@@ -249,7 +249,7 @@ export default function AboutPage() {
                 href="/reservation"
                 className="group mt-10 inline-flex items-center gap-3 rounded-full bg-noir px-7 py-3.5 text-sm font-medium text-ivory transition-all duration-200 hover:bg-charcoal active:scale-[0.98]"
               >
-                Reserver ma visite
+                Réserver ma visite
                 <span className="flex h-7 w-7 items-center justify-center rounded-full bg-ivory/10 transition-transform group-hover:translate-x-0.5">
                   <ArrowRight size={12} weight="bold" />
                 </span>

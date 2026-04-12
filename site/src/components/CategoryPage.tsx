@@ -80,17 +80,17 @@ export function CategoryPage({
         <div className="mx-auto max-w-3xl px-6 text-center lg:px-8">
           <AnimatedSection>
             <h2 className="font-[var(--font-heading)] text-3xl font-light tracking-tight text-noir md:text-4xl">
-              Pret pour un moment d'exception ?
+              Prêt pour un moment d'exception ?
             </h2>
             <p className="mt-4 text-base leading-relaxed text-muted">
-              Reservez votre soin en quelques clics. Notre equipe vous accueille
-              7 jours sur 7 dans un cadre raffine et chaleureux.
+              Réservez votre soin en quelques clics. Notre équipe vous accueille
+              7 jours sur 7 dans un cadre raffiné et chaleureux.
             </p>
             <Link
               href="/reservation"
               className="mt-8 inline-flex items-center gap-3 rounded-full bg-noir px-7 py-3.5 text-sm font-medium text-ivory transition-all duration-200 hover:bg-charcoal active:scale-[0.98]"
             >
-              Reserver maintenant
+              Réserver maintenant
               <span className="flex h-7 w-7 items-center justify-center rounded-full bg-ivory/10">
                 <ArrowRight size={12} weight="bold" />
               </span>
