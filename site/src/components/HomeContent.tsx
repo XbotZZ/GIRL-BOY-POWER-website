@@ -54,9 +54,9 @@ const categories: { slug: ServiceCategory; image: string }[] = [
 export function HomeContent({ featured }: { featured: Service[] }) {
   return (
     <ScrollExpandHero
-      mediaType="image"
-      mediaSrc="/GIRL-BOY-POWER-website/hero-riviere.jpg"
-      bgImageSrc="https://picsum.photos/seed/gbp-spa-nature/1920/1080"
+      mediaType="element"
+      mediaElement={<Logo className="w-2/3 h-2/3 max-w-[280px] max-h-[280px]" />}
+      bgImageSrc="/GIRL-BOY-POWER-website/hero-riviere.jpg"
       titleLines={[
         { text: "Pour elles,", className: "text-rose italic" },
         { text: "pour eux,", className: "text-azure italic" },

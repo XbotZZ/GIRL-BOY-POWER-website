@@ -12,9 +12,10 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 interface ScrollExpandHeroProps {
-  mediaType?: "video" | "image";
-  mediaSrc: string;
+  mediaType?: "video" | "image" | "element";
+  mediaSrc?: string;
   posterSrc?: string;
+  mediaElement?: ReactNode;
   bgImageSrc: string;
   titleLines?: { text: string; className?: string }[];
   tagline?: string;
@@ -27,6 +28,7 @@ const ScrollExpandHero = ({
   mediaSrc,
   posterSrc,
   bgImageSrc,
+  mediaElement,
   titleLines,
   tagline,
   scrollHint,
@@ -199,7 +201,11 @@ const ScrollExpandHero = ({
                   boxShadow: "0px 0px 60px rgba(26, 18, 20, 0.4)",
                 }}
               >
-                {mediaType === "video" ? (
+                {mediaType === "element" && mediaElement ? (
+                  <div className="relative w-full h-full flex items-center justify-center rounded-3xl bg-ivory/95 backdrop-blur-sm">
+                    {mediaElement}
+                  </div>
+                ) : mediaType === "video" ? (
                   <div className="relative w-full h-full pointer-events-none">
                     <video
                       src={mediaSrc}
@@ -224,7 +230,7 @@ const ScrollExpandHero = ({
                 ) : (
                   <div className="relative w-full h-full">
                     <Image
-                      src={mediaSrc}
+                      src={mediaSrc || ""}
                       alt="Spa GIRL & BOY POWER"
                       width={1280}
                       height={720}
