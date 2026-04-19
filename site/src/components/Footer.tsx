@@ -3,23 +3,23 @@ import { Logo } from "./Logo";
 import { FacebookLogo, InstagramLogo } from "@phosphor-icons/react/dist/ssr";
 
 const footerLinks = {
-  "Nos Soins": [
-    { href: "/services/massages", label: "Massages" },
-    { href: "/services/soins-visage", label: "Soins du Visage" },
-    { href: "/services/soins-corps", label: "Soins du Corps" },
-    { href: "/services/rituels", label: "Rituels & Forfaits" },
-    { href: "/services/hammam", label: "Hammam & Bien-Être" },
+  Parfums: [
+    { href: "/parfums", label: "Toute la collection" },
+    { href: "/parfums/printemps", label: "Printemps — Source d'Aurore" },
+    { href: "/parfums/ete", label: "Été — Source d'Aurore" },
+    { href: "/parfums/automne", label: "Automne — Souffle d'Ambre" },
+    { href: "/parfums/hiver", label: "Hiver — Éclat d'Hiver" },
   ],
-  "Le Spa": [
-    { href: "/about", label: "Notre Histoire" },
-    { href: "/about#valeurs", label: "Nos Valeurs" },
-    { href: "/about#equipe", label: "L'Équipe" },
-    { href: "/contact", label: "Accès & Horaires" },
+  "La Maison": [
+    { href: "/soins", label: "Soins Homme & Mixte" },
+    { href: "/julicath", label: "JuliCath Bagagerie" },
+    { href: "/spa", label: "Spa & Bien-Être" },
+    { href: "/about", label: "Notre histoire" },
   ],
   Pratique: [
-    { href: "/reservation", label: "Réserver en ligne" },
+    { href: "/panier", label: "Mon panier" },
+    { href: "/reservation", label: "Réserver un soin" },
     { href: "/contact", label: "Contact" },
-    { href: "#", label: "Cartes cadeaux" },
     { href: "#", label: "Conditions de vente" },
   ],
 };
@@ -29,7 +29,6 @@ export function Footer() {
     <footer className="border-t border-sand bg-cream/40">
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
-          {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3">
               <Logo className="h-12 w-12" />
@@ -40,9 +39,15 @@ export function Footer() {
               </h3>
             </div>
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-muted">
-              Spa &amp; bien-être inclusif. Une parenthèse de douceur, pour
-              elles, pour eux, pour tous.
+              Maison de parfums, soins d&apos;inspiration naturelle, bagagerie
+              de luxe JuliCath et spa bien-être. Inspirés par la pureté des
+              Sources de la Douix, à Châtillon-sur-Seine.
             </p>
+            <address className="mt-5 text-xs not-italic leading-relaxed text-muted">
+              20 avenue Noël Navoizat
+              <br />
+              21400 Châtillon-sur-Seine
+            </address>
             <div className="mt-5 flex gap-3">
               <a
                 href="https://www.facebook.com/profile.php?id=61577580411047"
@@ -63,7 +68,6 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Links */}
           {Object.entries(footerLinks).map(([title, links]) => (
             <div key={title}>
               <h4 className="text-xs font-medium uppercase tracking-[0.15em] text-muted">
@@ -92,10 +96,10 @@ export function Footer() {
           </p>
           <div className="flex gap-6">
             <Link href="#" className="text-xs text-muted hover:text-rose-deep">
-              Mentions Légales
+              Mentions légales
             </Link>
             <Link href="#" className="text-xs text-muted hover:text-rose-deep">
-              Politique de Confidentialité
+              Politique de confidentialité
             </Link>
             <Link href="#" className="text-xs text-muted hover:text-rose-deep">
               CGV
