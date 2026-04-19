@@ -14,7 +14,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact | GIRL & BOY POWER",
   description:
-    "Contactez le spa GIRL & BOY POWER. Réservation, conseils, bons cadeaux, événements — notre équipe est à votre écoute.",
+    "Contactez GIRL & BOY POWER. Parfums, soins, bagagerie JuliCath, spa — notre équipe de Châtillon-sur-Seine est à votre écoute.",
 };
 
 export default function ContactPage() {
@@ -34,8 +34,9 @@ export default function ContactPage() {
               <em className="italic text-rose-deep">ensemble</em>.
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted md:text-lg">
-              Une question sur un soin, un bon cadeau à offrir, une envie de
-              privatiser le spa ? Notre équipe est à votre écoute.
+              Une question sur un parfum, un conseil sur nos soins, une pièce
+              JuliCath à commander ou une envie de privatiser le spa ? Notre
+              équipe de Châtillon-sur-Seine est à votre écoute.
             </p>
           </AnimatedSection>
 
@@ -49,7 +50,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-sm font-medium text-noir">Email</h3>
                   <p className="mt-1 text-sm text-muted">
-                    contact@girlandboypower.fr
+                    julicath.contact@gmail.com
                   </p>
                   <p className="text-xs text-muted/70">
                     Réponse sous 24h en jours ouvrés
@@ -77,12 +78,12 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-sm font-medium text-noir">Adresse</h3>
                   <p className="mt-1 text-sm text-muted">
-                    17 Rue du Faubourg Saint-Honoré
+                    20 avenue Noël Navoizat
                     <br />
-                    75008 Paris, France
+                    21400 Châtillon-sur-Seine
                   </p>
                   <p className="text-xs text-muted/70">
-                    Métro Concorde · Parking Concorde à 200m
+                    Côte-d&apos;Or · Bourgogne-Franche-Comté
                   </p>
                 </div>
               </div>
